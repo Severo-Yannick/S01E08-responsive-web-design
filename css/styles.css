@@ -55,6 +55,19 @@ body {
   font-size: 1.2rem;
 }
 
+.nav-item-link {
+  display: block;
+  text-transform: uppercase;
+  background-color: #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.nav-item-link--active {
+  border-bottom: 2px solid #f39c12;
+}
+
 .page {
   padding: 5rem 2rem 2rem;
 }
