@@ -83,13 +83,26 @@ body {
 
 .content-titles {
   width: 50%;
-  font-size: 3em;
   margin-right: 2rem;
+  text-align: right;
 }
 
 .content-title {
-  max-width: 450px;
+  width: 450px;
   margin-left: auto;
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.content-title--main {
+  border-top: 3px solid #f39c12;
+  padding-top: 2rem;
+}
+
+.content-title--sub {
+  color: #aaa;
+  font-size: 2.5em;
 }
 
 .content-picture {
