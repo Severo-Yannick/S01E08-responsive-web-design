@@ -255,42 +255,44 @@ body {
 /*
   Styles pour les écrans de moins de 900px de large :
 */
-/*
+@media screen and (max-width: 900px) {
   .header {
-      position:static;
-      width:auto;
-      float:none;
-      margin-left:0;
+    height: auto;
+    position:static;
+    width:auto;
+    float:none;
+    margin-left:0;
   }
 
   .container {
-      width:96%;
-      padding-left:0;
+    width:96%;
+    padding-left:0;
   }
 
   .page {
-      padding: 0 1rem;
+    padding: 0 1rem;
   }
 
   .nav {
-      padding: 1rem;
+    padding: 1rem;
   }
 
   .nav .title {
-      display:none;
+    display:none;
   }
 
   .nav-links {
-      margin-top:0;
+    margin-top:0;
+    display: flex;
+    justify-content: space-between;
   }
 
   .nav-item {
-      width:calc(33.3333% - .5rem);
-      text-align: center;
+    width:calc(33.3333% - .5rem);
+    text-align: center;
   }
 
   .nav-item-link {
-      margin-bottom: 0;
+    margin-bottom: 0;
   }
-
-*/
+}
