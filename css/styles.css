@@ -62,10 +62,15 @@ body {
   border-radius: 5px;
   padding: 1rem;
   margin-bottom: 0.4rem;
+  transition: background-color .3s ease;
 }
 
 .nav-item-link--active {
   border-bottom: 2px solid #f39c12;
+}
+
+.nav-item-link:hover {
+  background-color: #f39c12;
 }
 
 .page {
@@ -187,6 +192,12 @@ body {
   display: inline-block;
   border: 4px solid #f39c12;
   font-weight: bold;
+  transition: background-color .3s ease, color .3s ease;
+}
+
+.btn:hover {
+  background-color: #f39c12;
+  color: #fff;
 }
 
 .footer {
