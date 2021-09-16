@@ -223,35 +223,34 @@ body {
 /*
   Styles pour les écrans de moins de 1200px de large :
 */
-/*
+@media screen and (max-width: 1200px) {
 
   .content-focus {
-      display:block;
+    display:block;
   }
 
   .content-titles {
-      width: auto;
-      text-align: center;
-      margin-right: 0;
+    width: auto;
+    text-align: center;
+    margin-right: 0;
   }
 
   .content-title {
-      max-width: none;
+    max-width: none;
   }
 
   .content-picture {
-      width: auto;
+    width: auto;
   }
 
   .articles-container {
-    
-      display:block;
+    display:block;
   }
   .card {
-      width:auto;
+    width:auto;
   }
+}
 
-*/
 
 /*
   Styles pour les écrans de moins de 900px de large :
